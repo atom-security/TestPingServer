@@ -2,9 +2,8 @@ name: Security Code Review
 
 on:
   pull_request:
-    types:
-      - opened
-      - synchronize
+    branches:
+      - main
 
 jobs:
   "Hello World":
