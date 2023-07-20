@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    name: "Test ABC"
+    name: "Is (user) input validated, sanitized, and escaped to prevent cross-site scripting, or SQL injection?"
     runs-on: ubuntu-latest
 
     steps:
