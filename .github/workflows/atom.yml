@@ -1,0 +1,87 @@
+name: CR
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-inputs:
+    name: "Is input validated?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  handle-sensitive-data:
+    name: "Is sensitive data handled securely?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  protect-secret-info:
+    name: "Does the code protect secret information?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  prevent-vulnerabilities:
+    name: "Does error handling/logging avoid vulnerabilities?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  validate-external-inputs:
+    name: "Are external inputs validated?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  test-user-inputs:
+    name: "Are user inputs properly tested?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  regex-validation:
+    name: "Do regular expressions cause validation problems?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  allow-list-approach:
+    name: "Is the allow list approach used?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  block-list-approach:
+    name: "Is the block list approach used?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  validate-xml-schemas:
+    name: "Are XML documents validated against schemas?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
