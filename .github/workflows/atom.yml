@@ -11,8 +11,4 @@ jobs:
     runs-on: alpine-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Success
-        run: echo "Success"
+      -
