@@ -7,7 +7,7 @@ on:
 
 jobs:
   validate-inputs:
-    name: "Validate inputs"
+    name: "Is input validated?"
     runs-on: alpine-latest
 
     steps:
@@ -15,7 +15,7 @@ jobs:
         run: echo "Success"
 
   handle-sensitive-data:
-    name: "Handle sensitive data"
+    name: "Is sensitive data handled securely?"
     runs-on: alpine-latest
 
     steps:
@@ -23,7 +23,7 @@ jobs:
         run: echo "Success"
 
   protect-secret-info:
-    name: "Protect secret information"
+    name: "Does the code protect secret information?"
     runs-on: alpine-latest
 
     steps:
@@ -31,7 +31,7 @@ jobs:
         run: echo "Success"
 
   prevent-vulnerabilities:
-    name: "Prevent vulnerabilities in error handling/logging"
+    name: "Does error handling/logging avoid vulnerabilities?"
     runs-on: alpine-latest
 
     steps:
@@ -39,7 +39,7 @@ jobs:
         run: echo "Success"
 
   validate-external-inputs:
-    name: "Validate external inputs"
+    name: "Are external inputs validated?"
     runs-on: alpine-latest
 
     steps:
@@ -47,7 +47,7 @@ jobs:
         run: echo "Success"
 
   test-user-inputs:
-    name: "Test user inputs"
+    name: "Are user inputs properly tested?"
     runs-on: alpine-latest
 
     steps:
@@ -55,7 +55,7 @@ jobs:
         run: echo "Success"
 
   regex-validation:
-    name: "Regular expression validation"
+    name: "Do regular expressions cause validation problems?"
     runs-on: alpine-latest
 
     steps:
@@ -63,7 +63,7 @@ jobs:
         run: echo "Success"
 
   allow-list-approach:
-    name: "Use allow list approach"
+    name: "Is the allow list approach used?"
     runs-on: alpine-latest
 
     steps:
@@ -71,7 +71,7 @@ jobs:
         run: echo "Success"
 
   block-list-approach:
-    name: "Use block list approach"
+    name: "Is the block list approach used?"
     runs-on: alpine-latest
 
     steps:
@@ -79,7 +79,7 @@ jobs:
         run: echo "Success"
 
   validate-xml-schemas:
-    name: "Validate XML documents against schemas"
+    name: "Are XML documents validated against schemas?"
     runs-on: alpine-latest
 
     steps:
