@@ -11,4 +11,5 @@ jobs:
     runs-on: alpine-latest
 
     steps:
-      -
+      - name: Success
+        run: echo "Success"
