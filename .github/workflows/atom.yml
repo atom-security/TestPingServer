@@ -1,4 +1,4 @@
-name: Security Code Review
+name: CR
 
 on:
   pull_request:
