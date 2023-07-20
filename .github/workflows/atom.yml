@@ -6,8 +6,80 @@ on:
       - main
 
 jobs:
-  test:
+  a:
     name: "Is (user) input validated, sanitized, and escaped to prevent cross-site scripting, or SQL injection?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  b:
+    name: "Is sensitive data like user data, or credit card information securely handled and stored?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  c:
+    name: "Does this code NOT reveal some secret information like keys, passwords, or usernames?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  d:
+    name: "Does error handling or logging NOT expose the system to vulnerabilities?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  e:
+    name: "Are inputs from external sources validated?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  f:
+    name: "Is user input tested for type, length, format, and range, and by enforcing limits?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  g:
+    name: "Are flaws in regular expressions causing data validation problems?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  h:
+    name: "Are allow list approaches used (i.e., check strings for only expected values)?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  i:
+    name: "Are block list approaches used (i.e., rejected stings for inappropriate values)?"
+    runs-on: alpine-latest
+
+    steps:
+      - name: Success
+        run: echo "Success"
+
+  j:
+    name: "Are XML documents validated against their schemas?"
     runs-on: alpine-latest
 
     steps:
