@@ -6,80 +6,80 @@ on:
       - main
 
 jobs:
-  a:
-    name: "Is (user) input validated, sanitized, and escaped to prevent cross-site scripting, or SQL injection?"
+  validate-inputs:
+    name: "Validate inputs"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  b:
-    name: "Is sensitive data like user data, or credit card information securely handled and stored?"
+  handle-sensitive-data:
+    name: "Handle sensitive data"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  c:
-    name: "Does this code NOT reveal some secret information like keys, passwords, or usernames?"
+  protect-secret-info:
+    name: "Protect secret information"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  d:
-    name: "Does error handling or logging NOT expose the system to vulnerabilities?"
+  prevent-vulnerabilities:
+    name: "Prevent vulnerabilities in error handling/logging"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  e:
-    name: "Are inputs from external sources validated?"
+  validate-external-inputs:
+    name: "Validate external inputs"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  f:
-    name: "Is user input tested for type, length, format, and range, and by enforcing limits?"
+  test-user-inputs:
+    name: "Test user inputs"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  g:
-    name: "Are flaws in regular expressions causing data validation problems?"
+  regex-validation:
+    name: "Regular expression validation"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  h:
-    name: "Are allow list approaches used (i.e., check strings for only expected values)?"
+  allow-list-approach:
+    name: "Use allow list approach"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  i:
-    name: "Are block list approaches used (i.e., rejected stings for inappropriate values)?"
+  block-list-approach:
+    name: "Use block list approach"
     runs-on: alpine-latest
 
     steps:
       - name: Success
         run: echo "Success"
 
-  j:
-    name: "Are XML documents validated against their schemas?"
+  validate-xml-schemas:
+    name: "Validate XML documents against schemas"
     runs-on: alpine-latest
 
     steps:
