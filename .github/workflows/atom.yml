@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     name: "Is (user) input validated, sanitized, and escaped to prevent cross-site scripting, or SQL injection?"
-    runs-on: ubuntu-latest
+    runs-on: alpine-latest
 
     steps:
       - name: Checkout code
